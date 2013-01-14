@@ -1,0 +1,13 @@
+{
+    "name": "Never Let me Click Reddit NSFW Links at Work",
+    "description" : "When on this extension prevents all NSFW links from ever being clicked on by mistake. No clickable comments or link",
+    "manifest_version": 2,
+    "version": "1.0",
+    "content_scripts": [
+    {
+        "matches": ["http://www.reddit.com/*", "https://www.reddit.com/*"],
+        "css": ["styles.css"],
+        "js": ["jquery.js" ,"main.js"]
+    }
+    ]
+}
