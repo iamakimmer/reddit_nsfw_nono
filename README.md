@@ -1,0 +1,1 @@
+This chrome extension removes All NSFW (Not Safe for Work Links) on Reddit.com. Sometimes these NSFW links appear on the front page and I don't ever want to click on them by accident @ work!
